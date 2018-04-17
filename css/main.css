@@ -514,14 +514,14 @@ pre code {
   background: none;
   text-shadow: none;
 }
-figure.highlight {
+.post-body figure.highlight {
   border-radius: 0.4em;
   outline: none;
   overflow: hidden;
   position: relative;
   padding-top: 36px;
 }
-figure.highlight::before {
+.post-body figure.highlight::before {
   content: attr(data-rel);
   height: 38px;
   line-height: 38px;
@@ -538,7 +538,7 @@ figure.highlight::before {
   text-indent: 15px;
   float: left;
 }
-figure.highlight::after {
+.post-body figure.highlight::after {
   content: " ";
   position: absolute;
   -webkit-border-radius: 50%;
@@ -1866,7 +1866,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8a9d53;
+  background: #04cb7f;
 }
 .links-of-blogroll {
   font-size: 13px;
